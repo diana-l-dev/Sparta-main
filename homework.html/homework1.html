@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8기 1주차 homework 이도연</title>
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&family=Yeon+Sung&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <style>
+        . {
+            font-family: 'Black Han Sans', sans-serif;
+            font-family: 'Yeon Sung', cursive;
+            font-family: 'Jua', sans-serif;
+        }
+
+        .mytitle {
+            width: 270px;
+            height: 300px;
+
+            background-image: url('https://shop-phinf.pstatic.net/20200428_174/1588063625484xnUbK_JPEG/25424364118206365_627191054.jpg?type=m450');
+            background-position: center;
+            background-size: cover;
+            /* 테두리 둥글게 */
+            border-radius: 10px;
+            /* 정렬 */
+            text-align: center;
+            /* 내부 여백 */
+            padding-top: 40px;
+        }
+
+        .wrap {
+            /* 외부 여백 */
+            margin: 10px auto;
+            text-align: center;
+            width: 270px;
+            /* 구글 임의 폰트 적용 */
+            font-family: 'Black Han Sans', sans-serif;
+            font-family: 'Yeon Sung', cursive;
+            font-family: 'Jua', sans-serif;
+        }
+
+        /* .small-font {
+            font-size: 15px;
+            font-weight: bold;
+        } */
+    </style>
+
+    <script>
+        function hey() {
+            alert('주문 완료');
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div class="wrap">
+        <h1 class="mytitle"></h1>
+        <p></p>
+        <span style="font-size: 30px;">건담 초특가</span>
+        <span style="font-size: 15px;"> 1,000원 / 1개 </span>
+        <p></p>
+        <h6>1979년 최초로 등장해 기존의 로봇 애니메이션의 개념을 바꿔 놓은 작품!</h6>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">주문자 성함</label>
+            </div>
+            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">수량</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>수량을 선택하세요 (최대3개)</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">주소</label>
+            </div>
+            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">전화번호</label>
+            </div>
+            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+        </div>
+
+        <button onclick="hey()" type="button" class="btn btn-secondary btn-sm">주문하기</button>
+
+        <!-- <div class="small-font">
+            <p>주문자 성함 : <input type="text"></p>
+            <p>수량 : <input type="text"></p>
+            <p>주소 : <input type="text"></p>
+            <p>전화번호 : <input type="text"></p>
+        </div>
+        <button>주문하기</button> -->
+    </div>
+    </div>
+</body>
+
+</html>
